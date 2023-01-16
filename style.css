@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: monospace;
+}
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+.header {
+    background-image: url(imgs/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.navbar {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.logo {
+    width: 30%;
+}
+.logo img {
+    width: 60px;
+    height: 60px;
+    padding-left: 30px;
+}
+.navlist {
+    width: 70%;
+}
+.navlist ul {
+    padding-top: 23px;
+}
+.navlist ul li {
+    display: inline-block;
+}
+.navlist ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding-right: 15px;
+}
+#com {
+    background-color: #ff214f;
+    padding: 10px;
+}
+.hero h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 90px;
+}
+.hero h1 {
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 6px 0;
+}
+.hero-btn {
+    margin: 35px 0;
+}
+.hero-btn ul {
+    text-align: center;
+}
+.hero-btn ul li {
+    display: inline-block;
+}
+.hero-btn ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 13px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+#ser {
+    background-color: #ff214f;
+    padding: 10px;
+}
+#con {
+    background-color: rgba(2, 2, 2, 0);
+    padding: 10px;
+    border: 1px solid #ffff;
+
+}
